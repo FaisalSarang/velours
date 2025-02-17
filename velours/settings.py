@@ -88,12 +88,12 @@ DATABASES = {
     'default': {
         # 'ENGINE': 'django.db.backends.sqlite3',
         # 'NAME': BASE_DIR / 'db.sqlite3',
-        'ENGINE': 'django.db.backends.mysql',
+        'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'railway',
-        'USER': 'root',
+        'USER': 'postgres',
         'PASSWORD': os.environ['DB_PASSWORD'],
-        'HOST': 'turntable.proxy.rlwy.net',
-        "PORT": '50344',
+        'HOST': 'nozomi.proxy.rlwy.net',
+        "PORT": '11530',
 
     }
 }
