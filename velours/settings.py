@@ -30,7 +30,7 @@ SECRET_KEY = 'django-insecure-+48f%s_%wd8@+2&6kcm0qp@)+@-rc5sy(+4!c$16s5$r$75r#!
 DEBUG = True
 
 ALLOWED_HOSTS = ['velours-production.up.railway.app', 'https://velours-production.up.railway.app']
-CSRF_TRUSTED_ORIGINS = ['velours-production.up.railway.app', 'https://velours-production.up.railway.app']
+CSRF_TRUSTED_ORIGINS = ['https://velours-production.up.railway.app']
 
 # Application definition
 
